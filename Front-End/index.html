@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="img/fe753d29-b060-4e4e-916c-7bac321d4d79.png" />
+  <title>Nodsys</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-dark text-light">
+
+  <!-- Header com menu responsivo -->
+  <header class="bg-light fixed-top shadow-sm border-bottom">
+    <div class="container py-3 d-flex justify-content-between align-items-center">
+      <div class="d-flex align-items-center">
+        <img src="img/fe753d29-b060-4e4e-916c-7bac321d4d79.png" alt="RMHtecnologia Logo" width="40" height="40" class="me-2 rounded" />
+        <span class="fs-4 fw-bold text-success">Nodsys</span>
+      </div>
+
+      <!-- Botão menu mobile -->
+      <button class="btn btn-outline-success d-md-none" type="button" data-bs-toggle="collapse"
+        data-bs-target="#menuMobile" aria-controls="menuMobile" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list"></i>
+      </button>
+
+      <!-- Menu desktop -->
+      <nav class="d-none d-md-flex gap-4 align-items-center">
+        <a href="#inicio" class="text-dark text-decoration-none hover">Início</a>
+        <a href="#servicos" class="text-dark text-decoration-none hover">Serviços</a>
+        <a href="#sobre" class="text-dark text-decoration-none hover">Sobre</a>
+        <a href="#contato" class="text-dark text-decoration-none hover">Contato</a>
+        <a href="https://wa.me/5585992865830?text=Oi%2C%20Gostaria%20de%20saber%20mais%20sobre%20o%20servi%C3%A7o." target="_blank" rel="noopener noreferrer" class="btn btn-success text-light px-4 hover">Fale Conosco</a>
+      </nav>
+    </div>
+
+    <!-- Menu mobile -->
+    <div class="collapse bg-light" id="menuMobile">
+      <div class="container d-flex flex-column py-3 gap-2">
+        <a href="#inicio" class="text-dark text-decoration-none">Início</a>
+        <a href="#servicos" class="text-dark text-decoration-none">Serviços</a>
+        <a href="#sobre" class="text-dark text-decoration-none">Sobre</a>
+        <a href="#contato" class="text-dark text-decoration-none">Contato</a>
+        <a href="https://wa.me/5585992865830?text=Oi%2C%20Gostaria%20de%20saber%20mais%20sobre%20o%20servi%C3%A7o." target="_blank" rel="noopener noreferrer" class="btn btn-success text-light px-4">Iniciar Projeto</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- section -->
+
+  <section id="inicio" class="pt-5 pb-4 bg-custom-gradient marg">
+    <div class="container px-4 py-5">
+      <div class="row align-items-center">
+        <!-- Texto à esquerda -->
+        <div class="col-lg-6 mb-5 mb-lg-0 fade-in">
+          <div class="d-flex align-items-center mb-3 text-success fw-medium">
+            <i class="bi bi-geo-alt-fill me-2"></i>
+            <span>Fortaleza, Ceará</span>
+          </div>
+
+          <h1 class="display-4 fw-bold text-dark mb-4 lh-sm">
+            Fábrica de
+            <span class="d-block text-gradient">Software </span>
+            <span class="d-block fs-2">Inovadora</span>
+          </h1>
+
+          <p class="lead text-muted mb-4">
+            Transformamos ideias em soluções digitais poderosas. Desenvolvemos ERPs, sistemas web e mobile, além de estratégias de tráfego pago que impulsionam seu negócio para o próximo nível.
+          </p>
+
+          <div class="d-flex flex-column flex-sm-row gap-3 mb-4">
+            <a href="https://wa.me/5585992865830?text=Oi%2C%20Gostaria%20de%20saber%20mais%20sobre%20o%20servi%C3%A7o." target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-success text-white px-4 py-2">
+              Solicite um diagnóstico agora
+              <i class="bi bi-arrow-right ms-2"></i>
+            </a>
+            <a href="#" class="btn btn-lg btn-outline-success px-4 py-2">
+              Ver Portfólio
+            </a>
+          </div>
+
+          <div class="d-flex align-items-center text-muted small">
+            <div class="d-flex align-items-center me-3">
+              <i class="bi bi-people-fill me-1"></i>
+              <span>Time de 5 especialistas</span>
+            </div>
+            <div class="rounded-circle bg-secondary me-2" style="width: 6px; height: 6px;"></div>
+            <span>Startup em crescimento</span>
+          </div>
+        </div>
+
+        <!-- Imagem à direita -->
+        <div class="col-lg-6 d-flex justify-content-center">
+          <div class="position-relative">
+            <div class="rounded-circle bg-custom-pulse position-absolute top-0 start-0 w-100 h-100"></div>
+            <div class="position-absolute top-50 start-50 translate-middle">
+              <div class="position-relative">
+                <img src="img/imagem.png" alt="Team working" class="rounded-circle object-fit-cover"
+                  style="width: 320px; height: 320px;">
+                <div
+                  class="position-absolute top-0 start-0 w-100 h-100 rounded-circle bg-success opacity-25 mix-blend-overlay">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--section de serviços-->
+
+  <section id="servicos" class="py-5 bg-white">
+    <div class="container px-4 py-5">
+      <div class="text-center mb-5">
+        <h2 class="display-5 fw-bold text-dark mb-3">
+          Nossos
+          <span class="text-gradient">Serviços</span>
+        </h2>
+        <p class="lead text-muted mx-auto" style="max-width: 800px;">
+          Oferecemos soluções completas para transformar sua empresa digitalmente, desde o desenvolvimento até a estratégia de marketing.
+        </p>
+      </div>
+
+      <div class="row gy-4">
+        <!-- Card 1 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card border-0 shadow-sm h-100 hover-card">
+            <div class="card-body text-center">
+              <div class="icon-box mx-auto mb-3">
+                <i class="bi bi-database text-white fs-4"></i>
+              </div>
+              <h5 class="fw-bold">Sistemas ERP</h5>
+              <p class="text-muted small">
+               Soluções completas de gestão empresarial para otimizar processos e aumentar a produtividade do seu negócio.
+              </p>
+              <ul class="list-unstyled text-start small text-muted ps-3">
+                <li><span class="dot me-2"></span>Gestão Financeira</li>
+                <li><span class="dot me-2"></span>Controle de Estoque</li>
+                <li><span class="dot me-2"></span>Recursos Humanos</li>
+                <li><span class="dot me-2"></span>Relatórios Avançados</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card border-0 shadow-sm h-100 hover-card">
+            <div class="card-body text-center">
+              <div class="icon-box mx-auto mb-3">
+                <i class="bi bi-globe text-white fs-4"></i>
+              </div>
+              <h5 class="fw-bold">Desenvolvimento Web</h5>
+              <p class="text-muted small">
+                Websites e aplicações web modernas, responsivas e otimizadas para performance e conversão.
+              </p>
+              <ul class="list-unstyled text-start small text-muted ps-3">
+                <li><span class="dot me-2"></span>Sites Institucionais</li>
+                <li><span class="dot me-2"></span>E-commerce</li>
+                <li><span class="dot me-2"></span>Dashboards</li>
+                <li><span class="dot me-2"></span>APIs RESTful</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card border-0 shadow-sm h-100 hover-card">
+            <div class="card-body text-center">
+              <div class="icon-box mx-auto mb-3">
+                <i class="bi bi-phone text-white fs-4"></i>
+              </div>
+              <h5 class="fw-bold">Apps Mobile</h5>
+              <p class="text-muted small">
+                Aplicativos nativos e híbridos para iOS e Android que oferecem experiências excepcionais aos usuários.
+              </p>
+              <ul class="list-unstyled text-start small text-muted ps-3">
+                <li><span class="dot me-2"></span>iOS & Android</li>
+                <li><span class="dot me-2"></span>React Native</li>
+                <li><span class="dot me-2"></span>UI/UX Design</li>
+                <li><span class="dot me-2"></span>Publicação nas Stores</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card border-0 shadow-sm h-100 hover-card">
+            <div class="card-body text-center">
+              <div class="icon-box mx-auto mb-3">
+                <i class="bi bi-graph-up-arrow text-white fs-4"></i>
+              </div>
+              <h5 class="fw-bold">Tráfego Pago</h5>
+              <p class="text-muted small">
+                Estratégias de marketing digital e campanhas de tráfego pago para maximizar seu ROI e alcançar mais clientes.
+              </p>
+              <ul class="list-unstyled text-start small text-muted ps-3">
+                <li><span class="dot me-2"></span>Google Ads</li>
+                <li><span class="dot me-2"></span>Facebook Ads</li>
+                <li><span class="dot me-2"></span>Analytics</li>
+                <li><span class="dot me-2"></span>Otimização de Conversão</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section sobre -->
+
+  <section id="sobre" class="py-5 bg-custom-about-gradient">
+    <div class="container px-4 py-5">
+      <div class="row align-items-center g-5">
+        <!-- Texto -->
+        <div class="col-lg-6">
+          <h2 class="display-5 fw-bold text-dark mb-4">
+            Sobre a
+            <span class="d-block text-gradient">Nodsys</span>
+          </h2>
+          <p class="text-muted fs-5 mb-4">
+            Somos uma startup de tecnologia nascida em Fortaleza, com a missão de transformar ideias em soluções digitais inovadoras. Nossa equipe de 5 especialistas combina experiência técnica com criatividade para entregar projetos que fazem a diferença.
+
+            Desde sistemas ERP complexos até campanhas de tráfego pago estratégicas, oferecemos um portfólio completo de serviços digitais para empresas que buscam crescer no mundo digital.
+          </p>
+
+          <div class="row text-center">
+            <div class="col-6">
+              <div class="fs-2 fw-bold text-success mb-1">15+</div>
+              <div class="text-muted">Projetos Entregues</div>
+            </div>
+            <div class="col-6">
+              <div class="fs-2 fw-bold text-success mb-1">5</div>
+              <div class="text-muted">Especialistas</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cartões com valores -->
+        <div class="col-lg-6">
+          <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-6">
+              <div class="card h-100 shadow-sm hover-card border-0">
+                <div class="card-body">
+                  <div class="icon-box mb-3">
+                    <i class="bi bi-bullseye text-white fs-5"></i>
+                  </div>
+                  <h5 class="fw-semibold text-dark mb-2">Foco no Cliente</h5>
+                  <p class="text-muted small">Cada projeto é desenvolvido pensando nas necessidades específicas do
+                    cliente.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-6">
+              <div class="card h-100 shadow-sm hover-card border-0">
+                <div class="card-body">
+                  <div class="icon-box mb-3">
+                    <i class="bi bi-lightbulb text-white fs-5"></i>
+                  </div>
+                  <h5 class="fw-semibold text-dark mb-2">Inovação</h5>
+                  <p class="text-muted small">Utilizamos as mais modernas tecnologias para criar soluções únicas.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-6">
+              <div class="card h-100 shadow-sm hover-card border-0">
+                <div class="card-body">
+                  <div class="icon-box mb-3">
+                    <i class="bi bi-rocket-takeoff text-white fs-5"></i>
+                  </div>
+                  <h5 class="fw-semibold text-dark mb-2">Agilidade</h5>
+                  <p class="text-muted small">Entregamos projetos de qualidade dentro dos prazos estabelecidos.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="col-6">
+              <div class="card h-100 shadow-sm hover-card border-0">
+                <div class="card-body">
+                  <div class="icon-box mb-3">
+                    <i class="bi bi-heart-fill text-white fs-5"></i>
+                  </div>
+                  <h5 class="fw-semibold text-dark mb-2">Paixão</h5>
+                  <p class="text-muted small">Amamos o que fazemos e isso se reflete em cada linha de código.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- section contato -->
+
+<section id="contato" class="py-5 bg-white">
+  <div class="container px-4 py-5">
+    <div class="text-center mb-5">
+      <h2 class="display-5 fw-bold text-dark mb-3">
+        Entre em
+        <span class="text-gradient"> Contato</span>
+      </h2>
+      <p class="lead text-muted mx-auto" style="max-width: 700px;">
+        Pronto para transformar sua ideia em realidade? Entre em contato conosco 
+        e vamos conversar sobre seu próximo projeto.
+      </p>
+    </div>
+
+    <div class="row g-5">
+      <!-- Informações de contato -->
+      <div class="col-lg-6">
+        <h3 class="h4 fw-bold text-dark mb-4">Vamos conversar sobre seu projeto</h3>
+
+        <div class="d-flex align-items-start mb-4">
+          <div class="icon-box me-3">
+            <i class="bi bi-envelope-fill text-white fs-5"></i>
+          </div>
+          <div>
+            <h5 class="mb-1 fw-semibold text-muted">Email</h5>
+            <p class="text-muted">contato@nodsys.com.br</p>
+          </div>
+        </div>
+
+        <div class="d-flex align-items-start mb-4">
+          <div class="icon-box me-3">
+            <i class="bi bi-telephone-fill text-white fs-5"></i>
+          </div>
+          <div>
+            <h5 class="mb-1 fw-semibold text-muted">Telefone</h5>
+            <p class="text-muted">(85) 99286-5830</p>
+          </div>
+        </div>
+
+        <div class="d-flex align-items-start mb-4">
+          <div class="icon-box me-3">
+            <i class="bi bi-geo-alt-fill text-white fs-5"></i>
+          </div>
+          <div>
+            <h5 class="mb-1 fw-semibold text-muted ">Localização</h5>
+            <p class="text-muted">Fortaleza, Ceará</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Formulário -->
+      <!-- Formulário -->
+<div class="col-lg-6">
+  <div class="card border-0 shadow">
+    <div class="card-body p-4">
+      <h5 class="card-title fw-bold mb-4">Envie sua mensagem</h5>
+      <form action="https://formsubmit.co/nodsysdev@gmail.com" method="post" class="needs-validation" novalidat
+      t6[]54098e>
+        <!-- Configurações do FormSubmit -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="obrigado.html">
+
+        <div class="row mb-3">
+          <div class="col">
+            <input type="text" class="form-control" name="nome" placeholder="Nome" required>
+          </div>
+          <div class="col">
+            <input type="email" class="form-control" name="email" placeholder="Email" required>
+          </div>
+        </div>
+        <div class="mb-3">
+          <input type="text" class="form-control" name="empresa" placeholder="Empresa">
+        </div>
+        <div class="mb-3">
+          <input type="tel" class="form-control" name="telefone" placeholder="Telefone" pattern="[0-9\s()+-]{8,15}">
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" name="mensagem" rows="5" placeholder="Conte-nos sobre seu projeto..." required></textarea>
+        </div>
+        <button type="submit" class="btn w-100 text-white btn-gradient">
+          Enviar Mensagem
+          <i class="bi bi-send ms-2"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light py-5">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-md-6">
+          <div class="d-flex align-items-center mb-3">
+            <img src="img/fe753d29-b060-4e4e-916c-7bac321d4d79.png" alt="Logo Nodsys" width="40" height="40" class="me-2 rounded">
+            <h4 class="mb-0">Nodsys</h4>
+          </div>
+          <p>Transformamos ideias em soluções digitais inovadoras. Sua fábrica de software em Fortaleza.</p>
+          <p><i class="bi bi-geo-alt"></i> Fortaleza, Ceará - Brasil</p>
+        </div>
+
+        <div class="col-md-3">
+          <h5>Serviços</h5>
+          <ul class="list-unstyled">
+            <li>Sistemas ERP</li>
+            <li>Desenvolvimento Web</li>
+            <li>Apps Mobile</li>
+            <li>Tráfego Pago</li>
+          </ul>
+        </div>
+
+        <div class="col-md-3">
+          <h5>Contato</h5>
+          <p><i class="bi bi-envelope"></i> contato@techservice.com.br</p>
+          <p><i class="bi bi-phone"></i> (85) 9 9286-5830</p>
+        </div>
+      </div>
+
+      <hr class="border-secondary my-4" />
+
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <p class="mb-2 mb-md-0">© 2025 Nodsys. Todos os direitos reservados.</p>
+        <div class="d-flex align-items-center gap-3">
+          <span>Redes Sociais:</span>
+          <a href="" target="_blank" class="text-light">
+            <i class="bi bi-google"></i>
+          </a>
+          <a href="https://www.instagram.com/Nod.sys/" target="_blank" class="text-light">
+            <i class="bi bi-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
